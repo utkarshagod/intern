@@ -1,0 +1,296 @@
+.header {
+  margin-right: 600px;
+  
+  
+}
+.section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.article {
+  float: right;
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+
+.footer.col{
+  float:left;
+  width: 190px;
+  height: auto;
+  padding: 0px 20px 20px 20px;
+}
+.footer  .footer-left img{
+	width: 30%;
+}
+header{
+	text-align: center;
+	padding-top: 100px;
+	margin-bottom:40px;
+	
+}
+header{
+	
+	padding-top: 100px;
+	margin-bottom:40px;
+	margin-left: 80px;
+	}
+header h3{
+	text-align: center;
+		
+	margin-bottom:40px;
+	margin-left: 200px;
+		}
+		.dot {
+			height: 25px;
+			width: 25px;
+			background-color: #bbb;
+		}
+.imgd p{
+	
+	margin-left: 200px;
+	}
+.imgd2 p{
+	
+	margin-left: 270px;
+	}
+	.imgd3 p{
+	
+		margin-left: 270px;
+		}
+
+header h1{
+	font: normal 32px/1.5 'Open Sans', sans-serif;
+	color:black;
+	padding-bottom: 5px;
+}
+
+header h2{
+	color: #F05283;
+}
+
+header span{
+  color: black;
+  padding-bottom: 1px;
+
+  
+}
+
+
+/* The footer is fixed to the bottom of the page */
+
+footer{
+	position: fixed;
+	bottom: 0;
+}
+
+@media (max-height:800px){
+	footer { position: ; }
+	header { padding-top:10px; }
+}
+
+
+.footer-distributed{
+	background-color: #e30022;
+	box-sizing: border-box;
+	width: 70%;
+	margin-left: 700px;
+	
+	font: bold 16px sans-serif;
+	padding: 1px 1px 2px 1px;
+	margin-top: 5px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+  width: 30%;
+  text-align: center;
+  margin-top: 50px;
+  
+}
+.footer-distributed .footer-left p{
+  color: #ffffff;
+	font-size: 20px;
+
+}
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+/* The company logo */
+
+.footer-distributed .footer-left img{
+	width: 30%;
+}
+
+.footer-distributed h3 span{
+	color:  #e0ac1c;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 20px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+  margin:0;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	
+ 
+  font-size: 20px;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #e0ac1c;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 30%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 20px;
+	font-weight: ;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-top: 50px;
+  
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* Here is the code for Responsive Footer */
+/* You can remove below code if you don't want Footer to be responsive */
+
+
+@media (max-width: 880px) {
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+}
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+  }
+  .hr{
+    background-color: #e30022;
+    border: 1px ;
+    
+  }
+  .par p{
+	  text-align:;
+	  margin-left: 290px;
+
+  }
+  .cap p{
+	  padding: 25px;
+	  margin: 5px;
+  }
+  
+
+
+
+  
+
+  
